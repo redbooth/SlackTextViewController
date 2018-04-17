@@ -431,7 +431,7 @@ CGFloat const SLKAutoCompletionViewDefaultHeight = 140.0;
         
         // Considers the bottom tab bar, unless it will be hidden
         if (tabBar && !tabBar.hidden && !self.hidesBottomBarWhenPushed) {
-            return CGRectGetHeight(tabBar.frame);
+            return 0.0;
         }
     }
     
